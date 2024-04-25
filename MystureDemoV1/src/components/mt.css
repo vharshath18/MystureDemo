@@ -1,0 +1,68 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #007bff;
+}
+
+.trips-list {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.trips-list h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.trips-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.trips-list li {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 20px;
+}
+
+.trips-list li:last-child {
+    border-bottom: none;
+}
+
+.trips-list div p {
+    margin: 5px 0;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 0.8rem;
+}
